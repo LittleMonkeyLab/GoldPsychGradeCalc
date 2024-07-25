@@ -45,8 +45,10 @@ ui <- dashboardPage(
         "View the source at ", fa("github"), " GitHub</a>"
       )),
       tags$hr(),
-      tags$img(src = "LMLLOGO.png", height = "50px", style = "margin-bottom: 10px;"),
-      HTML('<br>a <a href="https://littlemonkeylab.com" target="_blank" style="color: #fff;">LittleMonkeyLab</a> caper')
+      tags$img(src = "https://raw.githubusercontent.com/LittleMonkeyLab/GoldPsychGradeCalc/main/www/LMLLOGO.png", 
+         height = "50px", 
+         style = "margin-bottom: 10px;"),
+         HTML('<br>a <a href="https://littlemonkeylab.com" target="_blank" style="color: #fff;">LittleMonkeyLab</a> caper')
     )
   ),
   
